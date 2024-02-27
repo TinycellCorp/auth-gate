@@ -2,7 +2,7 @@
     "name": "AuthGate",
     "rootNamespace": "AuthGate",
     "references": [
-        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+        "UniTask"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -10,7 +10,15 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": [],
+    "defineConstraints": [
+        "UNITASK"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "",
+            "define": "UNITASK"
+        }
+    ],
     "noEngineReferences": false
 }

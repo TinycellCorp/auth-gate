@@ -18,6 +18,8 @@ namespace AuthGate
             return !string.IsNullOrWhiteSpace(UserId);
         }
 
+        public static UserInfo Invalid = new();
+
         public override string ToString()
         {
             return $"{UserId}, {Email}";
