@@ -5,7 +5,7 @@
 ### git URL
 
 ```
-https://github.com/TinycellCorp/auth-gate.git?path=Packages/AuthGate#1.0.6
+https://github.com/TinycellCorp/auth-gate.git?path=Packages/AuthGate#1.0.7
 
 // dependencies
 https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
